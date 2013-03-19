@@ -3,13 +3,13 @@
 	url = https://github.com/kien/ctrlp.vim.git
 [submodule "mustache.vim"]
 	path = bundle/mustache.vim
-	url = git://github.com/juvenn/mustache.vim.git
+	url = https://github.com/juvenn/mustache.vim.git
 [submodule "vim-coffee-script"]
 	path = bundle/vim-coffee-script
 	url = https://github.com/kchmck/vim-coffee-script.git
 [submodule "vim-haml"]
 	path = bundle/vim-haml
-	url = git://github.com/tpope/vim-haml.git
+	url = https://github.com/tpope/vim-haml.git
 [submodule "vim-rails"]
 	path = bundle/vim-rails
 	url = https://github.com/tpope/vim-rails.git
