@@ -1,0 +1,14 @@
+set runtimepath+=~/.vim
+
+execute pathogen#infect() 
+
+syntax on
+colorscheme desert
+filetype plugin indent on
+
+nnoremap <leader>n :NERDTreeFocus<CR>
+autocmd bufenter * if (winnr("$") == 1 && exists("b:NERDTree") && b:NERDTree.isTabTree()) | q | endif
+
+
+autocmd VimEnter * NERDTree
+autocmd VimEnter * wincmd p
