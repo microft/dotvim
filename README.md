@@ -21,6 +21,11 @@ nnoremap <leader>n :NERDTreeFocus<CR>
 ```
 or copy over DOTvimrc.example
 
+To pull all the submodules do
+```
+git submodule update --init --recursive
+```
+
 ## References
 
 https://vimawesome.com/
