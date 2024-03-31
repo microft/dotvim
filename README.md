@@ -19,6 +19,7 @@ filetype plugin indent on
 autocmd VimEnter * NERDTree
 nnoremap <leader>n :NERDTreeFocus<CR>
 ```
+or copy over DOTvimrc.example
 
 ## References
 
